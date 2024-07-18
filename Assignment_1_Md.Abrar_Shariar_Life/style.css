@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.main_box{
+    background-image: url("slider-img.jpg"),url("dots.png");
+    background-repeat: no-repeat;
+    background-position:center top , right;
+    height: 200vh;
+    
+}
+.fa{
+    color: aquamarine;
+    background-position: right;
+}
+.info{
+    color: black;
+}
+html{
+    font-size: 73.5%;
+    overflow: hidden;
+
+}
+.fa{
+    text-align:center;
+    color: #48C9B0;
+   
+}
+.header{
+    padding: 1rem 7%;
+    background-color: #48C9B0;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+img{
+    background-color: aliceblue;
+    
+    
+
+}
+.header #logo{
+    width: 40px;
+}
+.navbar a{
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+.icon{
+    font-size: 2rem;
+    margin-right: 1rem;
+    background-color: #48C9B0;
+    color: white;
+}
+button{
+    background-color: #48C9B0;
+    color: white;
+    border-color: #48C9B0;
+}
+.about_us{
+    width: 50px;
+}
+h2{
+    width: 30%;
+    
+    text-align: center;
+}
+p{
+    width: 35%;
+    text-align: center;
+}
+.hospital{
+    color: #48C9B0;
+  
+}
+.but{
+    text-align: center;
+    border:solid;
+    background-color:  black;
+    
+}
+
+.appointment-section {
+    background-color: #fff;
+    padding: 40px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 800px;
+}
+.appointment-section h2 {
+    color: #00bfa5;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.appointment-section form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.appointment-section form input,
+.appointment-section form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.appointment-section form .full-width {
+    grid-column: span 2;
+}
+.appointment-section .btn {
+    background-color: #00bfa5;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    grid-column: span 2;
+}
+.appointment-section .btn:hover {
+    background-color: #00796b;
+}
+
